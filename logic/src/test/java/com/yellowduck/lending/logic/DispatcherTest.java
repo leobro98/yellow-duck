@@ -6,6 +6,8 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.junit.Before;
 import org.junit.Test;
 
 import static com.yellowduck.lending.logic.Dispatcher.MAX_CART_LOAD;
@@ -26,7 +28,7 @@ public class DispatcherTest {
 	private static final int QUANTITY_3 = 15;
 	private static final int QUANTITY_4 = 11;
 
-	@org.junit.Before
+	@Before
 	public void setUp() {
 		dispatcher = new Dispatcher(new EqualPossibilitiesStrategy());
 	}
