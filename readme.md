@@ -1,6 +1,6 @@
 # Yellow Duck
 
-This is the test assignment accomplishment for creation of the REST-ful Web service. The assignment itself can be found in the RubberDuck_assignment.md. Advices for building and running the application are in the building_running.md.
+This is a test assignment accomplishment for creation of a REST-ful Web service. The assignment itself can be found in the RubberDuck_assignment.md. Advices for building and running the application are in the building_running.md.
 
 ## Architecture
 
